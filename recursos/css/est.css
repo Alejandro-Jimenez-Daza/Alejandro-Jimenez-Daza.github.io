@@ -1,0 +1,178 @@
+.slider {
+    position: relative;
+    width: 49%;
+    margin: initial;
+    overflow: hidden;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.slider ul {
+    display: flex;
+    padding: 0%;
+    width: 300%;
+
+    animation:  cambio 20s infinite alternate ease;
+}
+
+
+.slider li {
+width: 100%;
+list-style: none;
+
+}
+
+
+.slider img {
+    width: 100%;
+}
+
+
+
+@keyframes cambio {
+    0% { margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+
+
+
+.btn{
+    float: right;
+}
+
+
+.text-center1{
+    text-align: center;
+}
+
+.item{
+    float: left;
+}
+
+.container{
+     overflow: hidden;
+}
+
+.img1{
+    position: relative;
+    width: 450px;
+    left: 100px;
+    top: 20px; ;
+}
+
+#item2{
+    padding: 170px;
+}
+
+#item3{
+    padding-left: 900px;
+    bottom: 300px;
+}
+
+#cartas{
+    padding: 6em;
+}
+
+#t1{
+    text-align: center;
+
+}
+#t2{
+    text-align: center;
+    padding: 2em;
+}
+
+#valor{
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#box1{
+    padding: 1em;
+    margin-left: 10em;
+}
+
+#btn-link{
+    font-size: 25px;
+    padding-left: 1090px;
+}
+
+#imgE{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #frml{
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 4em;
+      padding-top: 1em;
+  }
+
+#hdv{
+    padding-top: 3em;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+}
+.signin-text{
+    font-style: normal;
+    font-weight: 600 !important;
+
+}
+.form-control{
+    display: block;
+    width:100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color:#495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+
+.form-control:focus{
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.birthday-section{
+    padding: 15px;
+}
+.btn-class{
+    border-color: #00ac96;
+    color: #00ac96;
+}
+.btn-class:hover{
+    background-color:  #00ac96;
+    color: #fff;
+}
